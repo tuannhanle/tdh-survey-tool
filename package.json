@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    // "server": "nodemon ./bin/www",
-    // "client": "npm run start --prefix ../client/app1",
-    // "dev": "concurrently \"npm run server\" \"npm run client\"",
-    // "start": "npm run dev"
     "start": "node ./bin/www"
+  },
+  "_comment":{
+    "server": "nodemon ./bin/www",
+    "client": "npm run start --prefix ../client/app1",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run dev"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
