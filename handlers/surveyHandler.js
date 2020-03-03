@@ -13,6 +13,7 @@ module.exports={
         
     },
     getSurveyData: async()=>{
-
+        let data = await surveyModel.find()
+        return data;
     }
 }

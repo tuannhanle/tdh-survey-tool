@@ -23,10 +23,18 @@ module.exports={
     },
     getSurveyData: async (req,res)=>{
         try {
-            let post = await surveyHandler.getSurveyData();
-
-        } catch (error) {
+            let data = await surveyHandler.getSurveyData();
+            res.status(200)
+            res.json({
+              success: true,
+              result: data
+            })
             
+        } catch (error) {
+            res.status(error.status ? error.status : 404).json({
+                success: false,
+                msg: error
+              })
         }
     }
 }

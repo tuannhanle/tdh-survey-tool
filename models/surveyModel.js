@@ -14,6 +14,10 @@ const SurveySchema = new Schema({
     age:{
         type:String,
         required: true
+    },
+    type:{
+        type:String,
+        required: true
     }
 },
     { timestamps: true }
