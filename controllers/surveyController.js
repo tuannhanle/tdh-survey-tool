@@ -1,5 +1,6 @@
 'use strict'
 const surveyHandler = require('../handlers/surveyHandler');
+const alibarray = require('alib-array');
 
 module.exports={
     postNewSurveyData: async (req,res) =>{
@@ -28,6 +29,28 @@ module.exports={
             res.json({
               success: true,
               result: data
+            })
+            
+        } catch (error) {
+            res.status(error.status ? error.status : 404).json({
+                success: false,
+                msg: error
+              })
+        }
+    },
+    filterGenderPercent: async(req,res)=>{
+        try {
+            let {type}=req.query;            
+            let jsonAll =  await surveyHandler.getSurveyData();
+            let countAll = alibarray().count(jsonAll,{})
+            let countType= alibarray().count(jsonAll,{gender : type})
+            let percent =( countAll - (countAll-countType) ) / countAll *100;
+            console.log(percent);
+            
+            res.status(200)
+            res.json({
+              success: true,
+              result: percent
             })
             
         } catch (error) {
