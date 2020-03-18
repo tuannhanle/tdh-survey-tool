@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.83f35a29.chunk.css",
-    "main.js": "/static/js/main.4a9e570c.chunk.js",
-    "main.js.map": "/static/js/main.4a9e570c.chunk.js.map",
+    "main.css": "/static/css/main.83263da2.chunk.css",
+    "main.js": "/static/js/main.53145a43.chunk.js",
+    "main.js.map": "/static/js/main.53145a43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3d4735e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.3d4735e1.js.map",
     "static/css/2.1c449a82.chunk.css": "/static/css/2.1c449a82.chunk.css",
-    "static/js/2.d7b633c7.chunk.js": "/static/js/2.d7b633c7.chunk.js",
-    "static/js/2.d7b633c7.chunk.js.map": "/static/js/2.d7b633c7.chunk.js.map",
+    "static/js/2.bc1cb49d.chunk.js": "/static/js/2.bc1cb49d.chunk.js",
+    "static/js/2.bc1cb49d.chunk.js.map": "/static/js/2.bc1cb49d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ccc40f63e3883498ed8dc6236e8968d3.js": "/precache-manifest.ccc40f63e3883498ed8dc6236e8968d3.js",
+    "precache-manifest.7f9221a0d990c4ada08f1961876f30e8.js": "/precache-manifest.7f9221a0d990c4ada08f1961876f30e8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1c449a82.chunk.css.map": "/static/css/2.1c449a82.chunk.css.map",
-    "static/css/main.83f35a29.chunk.css.map": "/static/css/main.83f35a29.chunk.css.map",
-    "static/js/2.d7b633c7.chunk.js.LICENSE.txt": "/static/js/2.d7b633c7.chunk.js.LICENSE.txt",
-    "static/js/main.4a9e570c.chunk.js.LICENSE.txt": "/static/js/main.4a9e570c.chunk.js.LICENSE.txt",
+    "static/css/main.83263da2.chunk.css.map": "/static/css/main.83263da2.chunk.css.map",
+    "static/js/2.bc1cb49d.chunk.js.LICENSE.txt": "/static/js/2.bc1cb49d.chunk.js.LICENSE.txt",
+    "static/js/main.53145a43.chunk.js.LICENSE.txt": "/static/js/main.53145a43.chunk.js.LICENSE.txt",
     "static/media/anime3.png": "/static/media/anime3.bd6820f1.png",
     "static/media/emilyz.jpg": "/static/media/emilyz.9fcf69e5.jpg",
     "static/media/nucleo-icons.css": "/static/media/nucleo.f0b489a5.woff",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d4735e1.js",
     "static/css/2.1c449a82.chunk.css",
-    "static/js/2.d7b633c7.chunk.js",
-    "static/css/main.83f35a29.chunk.css",
-    "static/js/main.4a9e570c.chunk.js"
+    "static/js/2.bc1cb49d.chunk.js",
+    "static/css/main.83263da2.chunk.css",
+    "static/js/main.53145a43.chunk.js"
   ]
 }
