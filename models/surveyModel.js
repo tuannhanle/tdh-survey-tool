@@ -3,6 +3,10 @@ const mongoosePaginate = require('mongoose-aggregate-paginate');
 searchable = require('mongoose-regex-search');
 const Schema = mongoose.Schema;
 const SurveySchema = new Schema({
+    store:{
+        type:String,
+        required: true
+    },
     gender:{
         type:String,
         required: true
@@ -18,7 +22,12 @@ const SurveySchema = new Schema({
     type:{
         type:String,
         required: true
+    },
+    isBuy:{
+        type:Array,
+        required: true
     }
+
 },
     { timestamps: true }
 )

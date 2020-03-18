@@ -5,10 +5,9 @@ const alibarray = require('alib-array');
 module.exports={
     postNewSurveyData: async (req,res) =>{
         try {
-             let data = req.body
-            console.log(data);
+            let data = req.body
+            
             let post = await surveyHandler.postNewSurveyData(data);
-            console.log(post);
             
             res.status(200);
             res.json({
